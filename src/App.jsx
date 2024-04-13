@@ -6,7 +6,7 @@ function App(){
     return(
         <>
             <NavBar />
-            <ItemListContainer />
+            <ItemListContainer mensaje={"Recorda iniciar sesion y/o registrarte para comprar."}/>
         </>
         
     )
