@@ -1,0 +1,146 @@
+[
+    {
+    "id": 2,
+    "name": "Porción de Banana Split Cheescake",
+    "description": "Cheesecake de dulce de leche y banana con corazón de dulce de leche y choco on top!",
+    "price": 6200,
+    "image": "https://www.pani.com.ar/cdn/shop/files/Recortes_Web_Arma_tu_Box_2024_28_590x.jpg?v=1710522078",
+    "categoria": "porcion",
+    "stock": 10
+    },
+    {
+    "id": 3,
+    "name": "Porcion de Choco Fan Cheesecake",
+    "description": "Cheesecake de super chocolate con baño de choco semi amargo y avellanas tostadas",
+    "price": 6500,
+    "image": "https://www.pani.com.ar/cdn/shop/files/Recortes_Web_Arma_tu_Box_2024_30_590x.jpg?v=1710522103",
+    "categoria": "porcion",
+    "stock": 10
+    },
+    {
+    "id": 4,
+    "name": "Muffin con chip de chocolate",
+    "description": "Muffin de vainilla con chips de cholocate semi amargo",
+    "price": 4100,
+    "image": "https://www.pani.com.ar/cdn/shop/files/Recortes_Web_Arma_tu_Box_2024_6_590x.jpg?v=1710522192",
+    "categoria": "porcion",
+    "stock": 10
+    },
+    {
+    "id": 5,
+    "name": "Porción de Black Cookies Mini Cake",
+    "description": "Cheesecake de dulce de leche y banana con corazón de dulce de leche y choco on top!",
+    "price": 5900,
+    "image": "https://www.pani.com.ar/cdn/shop/files/Arma_tu_Box_10_590x.jpg?v=1707237043",
+    "categoria": "porcion",
+    "stock": 10
+    },
+    {
+    "id": 6,
+    "name": "Mega porción de Black Cookies Cake",
+    "description": "MEGA PORCIÓN de nuestra torta estrella. Nuestro mimo a los golosos hecho Torta. Tiene muchas capas de black cookies  de chocolate con un cremoso de dulce de leche y baño de ganache de choco blanco.",
+    "price": 7500,
+    "image": "https://www.pani.com.ar/cdn/shop/files/Recortes_Web_Arma_tu_Box_2024_28_590x.jpg?v=1710522078",
+    "categoria": "porcion",
+    "stock": 10
+    },
+    {
+    "id": 7,
+    "name": "Torta Alfa Cake",
+    "description": "Torta alfajor triple con dulce de leche y baño de choco",
+    "price": 26500,
+    "image": "https://www.pani.com.ar/cdn/shop/files/Recortes_Web_Arma_tu_Box_2024_15_1_590x.jpg?v=1710865370",
+    "categoria": "torta",
+    "stock": 10
+    },
+    {
+    "id": 8,
+    "name": "Torta Carrot Cake PANI Style",
+    "description": "Nuestra versíon de  un clásico. Húmedo bizcocho con zanahoria y un tremendo relleno de queso crema y choco blanco, con frosting y crumble de frutos secos on top!",
+    "price": 33900,
+    "image": "https://www.pani.com.ar/cdn/shop/files/PANI-19-_1_1_590x.jpg?v=1696261209",
+    "categoria": "torta",
+    "stock": 10
+    },
+    {
+    "id": 9,
+    "name": "Torta Choco Fan Cheescake",
+    "description": "Cheesecake de super chocolate con baño de choco semi amargo y avellanas tostadas",
+    "price": 36900,
+    "image": "https://www.pani.com.ar/cdn/shop/files/Recortes_Web_Arma_tu_Box_2024_18_1_590x.jpg?v=1710865283",
+    "categoria": "torta",
+    "stock": 10
+    },
+    {
+    "id": 10,
+    "name": "Porcion de Choco Intense",
+    "description": "De untuoso chocolate con leche condensada cubierto de maní bañado y choco",
+    "price": 5500,
+    "image": "https://www.pani.com.ar/cdn/shop/files/Recortes_Web_Arma_tu_Box_2024_27_590x.jpg?v=1710595129",
+    "categoria": "porcion",
+    "stock": 10
+    },
+    {
+    "id": 11,
+    "name": "Box Mesa Dulce",
+    "description": "Nuestro completísimo Box Mesa Dulce siempre listo para mejorar tus reuniones y eventos. En casa o en la oficina, nuestra selección de dulces y salados hace felices a todos tus invitados.",
+    "price": 78900,
+    "image": "https://www.pani.com.ar/cdn/shop/products/MG_6568_590x.jpg?v=1677269809",
+    "categoria": "evento",
+    "stock": 10
+    },
+    {
+    "id": 12,
+    "name": "Box Desayuno",
+    "description": "Nuestro completísimo Desayuno Para Eventos siempre listo para mejorar tus reuniones y eventos. En casa o en la oficina, nuestra selección de dulces y salados hace felices a todos tus invitados.",
+    "price": 65000,
+    "image": "https://www.pani.com.ar/cdn/shop/products/MG_6535_590x.jpg?v=1677268578",
+    "categoria": "evento",
+    "stock": 10
+    },
+    {
+    "id": 13,
+    "name": "Porción de Cheesecake",
+    "description": "Tremenda cheesecake de dulce de leche con pedazos de choco “MILKA Leger con almendras”, base de las clásicas galles LINCOLN y una deco de locos con más choco MILKA.",
+    "price": 3900,
+    "image": "https://www.pani.com.ar/cdn/shop/files/Foto_Web_18_590x.jpg?v=1703266431",
+    "categoria": "porcion",
+    "stock": 10
+    },
+    {
+    "id": 14,
+    "name": "Porción de Apple PANI",
+    "description": "Masa cobler con manzanitas caranelizadas y crumble de frutos secos on top!",
+    "price": 3900,
+    "image": "https://www.pani.com.ar/cdn/shop/files/Arma_tu_Box_16_590x.jpg?v=1707236242",
+    "categoria": "porcion",
+    "stock": 10
+    },
+    {
+    "id": 15,
+    "name": "Porción de Key Lime Pie",
+    "description": "Base crocante de galletitas dulces con relleno de curd de lima!",
+    "price": 4900,
+    "image": "https://www.pani.com.ar/cdn/shop/files/Recortes_Web_Arma_tu_Box_2024_22_7918b061-4b43-4e75-b427-fcc0754ae596_590x.jpg?v=1710863162",
+    "categoria": "porcion",
+    "stock": 10
+    },
+    {
+    "id": 16,
+    "name": "Porción de Coco Lemon",
+    "description": "Cuadrado de cheese de coco con curd de limón, frutos rojos y crumble de vainilla",
+    "price": 4900,
+    "image": "https://www.pani.com.ar/cdn/shop/files/Recortes_Web_Arma_tu_Box_2024_25_590x.jpg?v=1710522115",
+    "categoria": "porcion",
+    "stock": 10
+    },
+    {
+    "id": 17,
+    "name": "Porción de Penaut Butter",
+    "description": "Cheesecake de maní con maní picado y salted caramel",
+    "price": 4900,
+    "image": "https://www.pani.com.ar/cdn/shop/files/Recortes_Web_Arma_tu_Box_2024_26_590x.jpg?v=1710522130",
+    "categoria": "porcion",
+    "stock": 10
+    }
+]
