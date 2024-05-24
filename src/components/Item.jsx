@@ -3,7 +3,7 @@ import ItemCount from "./ItemCount";
 
 const Item = ({item}) => {
     return (
-        <div className="col-md-3 text-center">
+        <div className="col-md-4 text-center">
             <Link to={"/item/" + item.id} className="text-decoration-none">
                 <div className="card border-0">
                     <img src={item.image} className="img-fluid" alt={item.name} />

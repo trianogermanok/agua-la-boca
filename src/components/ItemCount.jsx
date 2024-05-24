@@ -29,22 +29,22 @@ const ItemCount = ({stock}) => {
     }, [stock])
 
     return(
-        <div className="container row d-flex justify-content-center align-items-center">
-            <div className="row justify-content-center align-items-center">
-                <div className="col-auto">
-                    <button type="button" className="btn bg-primary text-white" onClick={decrementar}> - </button>
-                </div>
-                <div className="col-auto">
-                    <button type="button" className="btn bg-primary text-white rounded-0">{contador}</button>
-                </div>
-                <div className="col-auto">
-                    <button type="button" className="btn bg-primary text-white" onClick={incrementar}> + </button>
+        <div className="container">
+            <div className="row">
+                <div className="col">
+                    <div className="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" className="btn text-black btn-warning" onClick={decrementar}> - </button>
+                        <button type="button" className="btn text-black btn-warning">{contador}</button>
+                        <button type="button" className="btn text-black btn-warning" onClick={incrementar}> + </button>
+                    </div>
                 </div>
             </div>
-            <div className="row my-1 justify-content-center align-items-center">
-                <button type="button" className="btn bg-success text-white text-uppercase" onClick={onAdd}>Agregar Al Carrito</button>
+            <div className="row my-1">
+                <div className="col">
+                    <button type="button" className="btn bg-black text-white text-uppercase" onClick={onAdd}>Agregar al carrito</button>
+                </div>
             </div>
         </div>
     )
 }
-export default ItemCount
+export default ItemCount;

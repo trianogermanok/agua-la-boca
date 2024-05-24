@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import arrayProductos from "./JSON/productos.json"
-import ItemList from "./ItemList";
+import ItemCount from "./ItemCount";
 import { useParams } from "react-router-dom";
+import ItemList from "./ItemList";
 
 const ItemListContainer = () => {
     const [items, setItems] = useState([])
@@ -21,16 +22,11 @@ const ItemListContainer = () => {
 
 
     return (
-        <div>
             <div className="container text-center">
-                <h1>Nuestros productos</h1>
                 <div className="row my-5">
-                    <div className="row text-center justify-content-center">
-                        <ItemList item={items}/>
-                    </div>
+                        <ItemList items={items} />
                 </div>
             </div>
-        </div>
     );
 };
 
