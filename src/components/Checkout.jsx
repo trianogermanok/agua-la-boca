@@ -27,12 +27,12 @@ const Checkout = () => {
         
         // Agrego un nuevo Documento a la Colección Orders
         const db = getFirestore();
-        const itemsCollection = collection(db, "items");
-        addDoc(itemsCollection, order).then(data => {
+        const ordersCollection = collection(db, "orders");
+        addDoc(ordersCollection, order).then(data => {
             setOrderId(data.id);
             setNombre("");
             setEmail("");
-            setTelefono("");
+            setTelephone("");
             clear();
         });
     }
