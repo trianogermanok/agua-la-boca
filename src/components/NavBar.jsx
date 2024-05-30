@@ -17,7 +17,6 @@ function NavBar() {
                         <NavLink className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Nosotros</NavLink>
                         <ul className="dropdown-menu">
                             <li><NavLink className="dropdown-item" to={"/nuestra-historia"}>Nuestra historia</NavLink></li>
-                            <li><NavLink className="dropdown-item" to={"/nuestros-menus"}>Nuestros menus</NavLink></li>
                             <li><NavLink className="dropdown-item" to={"/contacto"}>Contacto</NavLink></li>
                         </ul>
                         </li>
@@ -31,8 +30,8 @@ function NavBar() {
                         <li className="nav-item dropdown">
                             <NavLink className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Eventos</NavLink>
                             <ul className="dropdown-menu">
-                                <li><NavLink className="dropdown-item" to="/desayuno">Box desayunos</NavLink></li>
-                                <li><NavLink className="dropdown-item" to="/mesa-dulce">Box mesa dulce</NavLink></li>
+                                <li><NavLink className="dropdown-item" to="/categoria/desayuno">Box desayunos</NavLink></li>
+                                <li><NavLink className="dropdown-item" to="/categoria/mesa-dulce">Box mesa dulce</NavLink></li>
                             </ul>
                         </li>
                     </ul>

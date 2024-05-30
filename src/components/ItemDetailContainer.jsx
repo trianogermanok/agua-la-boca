@@ -1,31 +1,32 @@
 import React, { useEffect, useState } from "react";
-import arrayProductos from "./JSON/productos.json"
-import ItemDetail from "./ItemDetail";
 import { useParams } from "react-router-dom";
+import ItemDetail from "./ItemDetail";
+import { doc, getDoc, getFirestore } from "firebase/firestore";
+import Loading from "./Loading";
+
 
 const ItemDetailContainer = () => {
     const [item, setItem] = useState([])
+    const [visible, setVisible] = useState(true);
     const {id} = useParams();
     
+    // Accedo a un producto por ID en FireStore
     useEffect(() => {
-        const promesa = new Promise((resolve) => {
-            setTimeout(() => {
-                const producto = arrayProductos.find(item => item.id == id);
-                resolve(producto);
-            }, 2000)
+        const db = getFirestore();
+        const docRef = doc(db, "items", id);
+        getDoc(docRef).then(snapShot => {
+            if (snapShot.exists()) {
+                setItem({id:snapShot.id, ...snapShot.data()});
+                setVisible(false);
+            }
         });
-        promesa.then(resolve => {
-            setItem(resolve);
-        });
-    }, [id]);
-    
-
+    }, [id])
 
     return (
         <div>
             <div className="container">
                 <div className="row my-5">
-                    <ItemDetail item={item}/>
+                    {visible ? <Loading /> : <ItemDetail item={item}/> }
                 </div>
             </div>
         </div>

@@ -1,18 +1,20 @@
 import { useContext } from "react";
 import { CartContext } from "./context/CartContext";
 import { Link } from "react-router-dom";
-//import trash from "../public/trash.svg";
+import trash from "../assets/trash.svg";
 
 const Cart = () => {
-    const {cart, removeItem, clear, getCountProducts, getSumProducts} = useContext(CartContext);
+    const {carrito, removeItem, clear, getCountProducts, getSumProducts} = useContext(CartContext);
 
     if (getCountProducts() == 0) {
         return (
             <div className="container my-5">
                 <div className="row">
                     <div className="col text-center">
-                        <h3>El carrito esta vacio. Por favor regresa para seleccionar un producto!</h3>
-                        <Link to={"/"} className="btn text-white bg-warning rounded-0 my-5">Volver al menu</Link>
+                        <div className="alert alert-warning" role="alert">
+                            <h3>El carrito esta vacio. Por favor regresa para seleccionar un producto!</h3>
+                            <Link to={"/"} className="btn text-white bg-warning rounded-0 my-5">Volver al menu</Link>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -28,7 +30,7 @@ const Cart = () => {
                             <tr>
                                 <td colSpan={6} className="text-end"><button className="btn text-white bg-dark rounded-0" onClick={clear}>Vaciar Carrito</button></td>
                             </tr>
-                            {cart.map(item => (
+                            {carrito.map(item => (
                                 <tr key={item.id}>
                                     <td><img src={item.imagen} alt={item.nombre} width={120} /></td>
                                     <td className="align-middle text-start">{item.nombre}</td>
@@ -39,9 +41,10 @@ const Cart = () => {
                                 </tr>
                             ))}
                             <tr>
-                                <td colSpan={4} className="text-center"><b>Total</b></td>
+                                <td colSpan={2} className="text-center"><b>Total</b></td>
                                 <td className="text-center"><b>${getSumProducts()}</b></td>
-                                <td className="text-end"><Link to={"/checkout"} className="btn text-white bg-dark rounded-0">Checkout</Link></td>
+                                <td>&nbsp;</td>
+                                <td className="text-end"><Link to={"/checkout"} className="btn text-white bg-warning rounded-0">Checkout</Link></td>
                             </tr>
                         </tbody>
                     </table>

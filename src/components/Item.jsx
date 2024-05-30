@@ -6,9 +6,9 @@ const Item = ({item}) => {
         <div className="col-md-4 text-center">
             <Link to={"/item/" + item.id} className="text-decoration-none">
                 <div className="card border-0">
-                    <img src={item.image} className="img-fluid" alt={item.name} />
+                    <img src={item.imagen} className="img-fluid" alt={item.nombre} />
                     <div className="card-body">
-                        <p className="card-text small text-uppercase">{item.name}<br /><span className="card-text fs-5"><b>Precio: ${item.price}</b></span></p>
+                        <p className="card-text small text-uppercase">{item.nombre}<br /><span className="card-text fs-5"><b>Precio: ${item.precio}</b></span></p>
                     </div>
                 </div>
             </Link>
